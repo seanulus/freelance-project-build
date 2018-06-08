@@ -1,14 +1,14 @@
-# JS Template Repo for Epicodus
+# Freelance Project Week 2
 
 ## By Sean McDermott
 
 # Description
-This is a template directory to make things go quicker in the morning.
+Our goal for this week was to use responsive design to create the differing views from the wireframes we created last week.
 
 # Specifications
-* The program will hold the necessary files and folders for easy cloning
-  * Input Example: **Example**
-  * Output Example: **Example**
+* The views will resize based on responsive design and media queries.
+* The menu will toggle when in the mobile view.
+
 
 # Setup Requirements
 * Clone this repository
@@ -22,10 +22,10 @@ This is a template directory to make things go quicker in the morning.
 # Technologies
 * HTML
 * CSS
+* SCSS
 * JavaScript
 * Webpack
-* Jasmine
-* Karma
+
 
 This project uses the _MIT License_
 &copy; **Sean McDermott** 2018
