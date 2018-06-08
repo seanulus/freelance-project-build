@@ -35,6 +35,7 @@ $lightRed: #EAC6CC;
 
   ul {
     list-style-type: none;
+    margin: 0;
   }
 
   li {
@@ -48,7 +49,7 @@ $lightRed: #EAC6CC;
   }
 
   a:hover {
-    color: white;
+    text-decoration: underline;
   }
 
   .logo {
@@ -95,7 +96,7 @@ $lightRed: #EAC6CC;
   padding-top: 7%;
   color: $solidBlue;
   background: linear-gradient(lighten($lightBlue, 30%), white);
-  @include mQ(600px) {
+  @include mQ(700px) {
     background: linear-gradient(90deg, darken($lightGreen, 10%), white);
   }
 
@@ -119,7 +120,7 @@ $lightRed: #EAC6CC;
         font-size: 1.7em;
       }
     }
-    @include mQ(600px) {
+    @include mQ(700px) {
       background: linear-gradient(90deg, darken($lightGreen, 10%), white);
     }
   }
