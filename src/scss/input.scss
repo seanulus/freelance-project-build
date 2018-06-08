@@ -65,6 +65,31 @@ $lightRed: #EAC6CC;
   }
 }
 
+.burger-nav {
+  width: 100%;
+  display: none;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    width: 100%;
+    text-align: center;
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px 0;
+    background-color: $solidBlue;
+  }
+
+  a {
+    color: white;
+  }
+}
+
 .main-content {
   width: 100%;
   padding-top: 7%;
