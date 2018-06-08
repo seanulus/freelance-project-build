@@ -14,3 +14,43 @@ $lightRed: #EAC6CC;
     @content;
   }
 }
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, $lightGreen, white);
+  color: $solidBlueText;
+  @include mQ(700px) {
+    background: none;
+    background-color: $solidGreen;
+
+    .nav-tags {
+      display: none;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    float: left;
+    padding-right: 40px;
+  }
+
+  .logo {
+    padding-left: 40px;
+  }
+
+  .burger {
+    display: none;
+    @include mQ(700px) {
+      display: block;
+      margin: 40px;
+    }
+  }
+}
