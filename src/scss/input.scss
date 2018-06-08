@@ -43,6 +43,14 @@ $lightRed: #EAC6CC;
     font-family: "Trebuchet MS", Arial, sans-serif;
   }
 
+  a {
+    color: $solidBlue;
+  }
+
+  a:hover {
+    color: white;
+  }
+
   .logo {
     padding-left: 40px;
   }
@@ -52,6 +60,7 @@ $lightRed: #EAC6CC;
     @include mQ(700px) {
       display: block;
       margin: 40px;
+      font-size: 30px;
     }
   }
 }
@@ -147,5 +156,13 @@ $lightRed: #EAC6CC;
 
   p {
     margin: 0;
+  }
+
+  a {
+    color: $solidBlue;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
