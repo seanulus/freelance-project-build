@@ -65,10 +65,22 @@ $lightRed: #EAC6CC;
     width: 100%;
   }
 
+  h3 {
+    font-size: 2em;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
   .core-text {
     padding: 20px;
     text-align: center;
     background: linear-gradient(0deg,lighten($lightRed, 5%), white 80%);
+    @include mQ(1000px) {
+      h3 {
+        font-size: 1.7em;
+      }
+    }
   }
 }
 
@@ -82,11 +94,27 @@ $lightRed: #EAC6CC;
   .images-description {
     display: flex;
     width: 100%;
+    @include mQ(768px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .description-top {
+    display: flex;
+  }
+
+  .description-bottom {
+    display: flex;
   }
 
   .image {
     width: 100%;
     height: auto;
+  }
+
+  p {
+    padding-top: 10px;
+    font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   }
 
   img {
@@ -101,6 +129,7 @@ $lightRed: #EAC6CC;
   justify-content: space-between;
   align-items: center;
   padding: 25px 20px 20px 20px;
+  background: linear-gradient($lightGreen, white);
 
   p {
     margin: 0;
