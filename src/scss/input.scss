@@ -68,15 +68,21 @@ $lightRed: #EAC6CC;
   .core-text {
     padding: 20px;
     text-align: center;
-    background: linear-gradient(0deg,lighten($lightRed, 10%), white);
+    background: linear-gradient(0deg,lighten($lightRed, 10%), white 80%);
   }
 }
 
-.photo-info-grid {
-  display: flex;
+.photo {
+  width: 100%;
+  color: $solidBlueText;
+  text-align: center;
+
+  .images-description {
+    display: flex;
+    width: 100%;
+  }
 
   img {
-    width: 25%;
-    height: 10%;
+    width: 100%;
   }
 }
