@@ -1,0 +1,16 @@
+// Variables
+
+$solidGreen: #AEE1D5;
+$lightGreen: #E6FFF9;
+$solidBlue: #96C0F2;
+$solidBlueText: #5988C0;
+$lightBlue: #4AD1FF;
+$lightRed: #EAC6CC;
+
+// Mixins
+
+@mixin mQ($arg) {
+  @media screen and (max-width: $arg) {
+    @content;
+  }
+}
